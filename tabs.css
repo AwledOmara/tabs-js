@@ -1,0 +1,56 @@
+body{
+
+	background-color: #eee;
+	padding: 50px;
+
+}
+
+ul.tabs,.tabs li{
+	margin:0px;
+	padding: 0px;
+	list-style:none;
+}
+
+.tabs li{
+	float: left;
+	display: block;
+}
+.tabs:after{
+	display: table;
+	content:' ';
+	clear: both;
+}
+.tabs a{
+	display: inline-block;
+	background-color: #eee;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.12);
+	padding: 10px 15px;
+
+	text-decoration: none;
+}
+.tabs .active a{
+	background-color: #FFF;
+	color: #OOO;
+   
+}
+
+.tab-content.active{
+	display: block;
+	
+}
+.tab-content{
+display: none;
+
+}
+.tabs-content{
+	position: relative;
+	z-index: 3;
+padding:15px;
+background: #FFF;
+box-shadow: 0px 1px 3px rgba(0,0,0,0.12);
+margin-bottom: 20px;
+}
+
+
+
+
