@@ -2,7 +2,7 @@
 
 (function(){
 
-afficherTab=function(a){
+DisplayTab=function(a){
 
 	 var li=a.parentNode;
 
