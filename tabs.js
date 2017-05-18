@@ -31,7 +31,7 @@ for (var i=0;i<tabs.length;i++){
 
 tabs[i].addEventListener('click',function(e){
 
-		afficherTab(this);
+		displayTab(this);
 	
   })//end eventlistner
 }
@@ -41,7 +41,7 @@ var hash=window.location.hash;
 var a =document.querySelector('a[href="'+hash+'"]');
 
 if(a!==null  && !a.classList.contains('active')){
-		afficherTab(a);
+		displayTab(a);
 }
 
 
